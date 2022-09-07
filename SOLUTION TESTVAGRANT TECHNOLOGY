@@ -1,0 +1,40 @@
+
+
+// Name: Akhil Kumar Verma 
+// College: Lovely Professional University
+// year of passing: 2023
+// phone number:7004281910
+// email: vermaakhil52@gmail.com
+
+
+
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+string products[]={"Leather wallet","Umbrella","Cigerette","Honey"};
+int unitprice[]={1100,900,200,100};
+int gst[]={18,12,28,0};
+int quantity[]={1,2,3,4};
+
+int LeatherWallet=unitprice[0]*gst[0]/100*unitprice[0];
+int Umbrella=unitprice[1]*gst[1]/100*unitprice[1]*quantity[1];
+int Cigerrete=unitprice[2]*gst[2]/100*unitprice[2]*quantity[2];
+int Honey=unitprice[3]*gst[4]/100*unitprice[3]*quantity[3];
+
+
+cout<<"Price for Leather Wallet: "<<LeatherWallet<<endl;
+cout<<"Price for Umbrella:"<<Umbrella<<endl;
+cout<<"Price for Cigerette:"<<Cigerrete<<endl;
+cout<<"Price for Honey:"<<Honey<<endl;
+cout<<"Total price: "<<LeatherWallet+Umbrella+Cigerrete+Honey<<endl;
+//for adding more values//
+// int moreValues[]={};//
+// int n;//
+// for(int i=0;i<moreValues.size();i++)//
+// {
+//     cin n;//
+// }
+}
